@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 13rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+
+  
+}
+.right-part {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  width: 5rem;
+}
+.img-logo {
+  width: 1rem;
+}
+.note{
+    color: gray;
+}
+.noteof100{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}

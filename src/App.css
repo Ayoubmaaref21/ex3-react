@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  width: 45%;
+  box-shadow: 0 0 0.5rem black;
+  border-radius: 1rem;
+}
+.left-part-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.right-part-app{
+    width: 18rem;
+    
+}
+.left-part-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(79, 29, 126);
+    
+    margin:0rem 0 1.2rem 0rem;
+}
+.btn-continue{
+    border-radius: 1rem;
+    background-color: rgb(79, 29, 126);
+    color: white;
+    height: 2rem;
+    margin-top: 2rem;
+}
+
